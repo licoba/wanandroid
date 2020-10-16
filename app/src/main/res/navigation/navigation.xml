@@ -9,7 +9,7 @@
         android:id="@+id/tabFragment"
         android:name="luyao.wanandroid.ui.TabFragment"
         android:label="fragment_tab"
-        tools:layout="activity_bottom_navigation">
+        tools:layout="@layout/activity_bottom_navigation">
         <action
             android:id="@+id/action_tab_to_browser"
             app:destination="@id/browserActivity" />

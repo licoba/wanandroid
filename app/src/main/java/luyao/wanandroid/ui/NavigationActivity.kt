@@ -7,6 +7,7 @@ import luyao.wanandroid.R
 /**
  * Created by luyao
  * on 2019/12/26 15:24
+ * 启动 Activity
  */
 class NavigationActivity : BaseActivity() {
 
@@ -14,7 +15,7 @@ class NavigationActivity : BaseActivity() {
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        setTheme(R.style.AppTheme)
+//        setTheme(R.style.AppTheme)
         super.onCreate(savedInstanceState)
     }
 

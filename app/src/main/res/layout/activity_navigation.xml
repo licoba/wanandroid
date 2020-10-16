@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:background="@android:color/background_light">
 
+    <!--在xml布局中直接使用fragment-->
     <fragment
         android:id="@+id/tabNavigation"
         android:name="androidx.navigation.fragment.NavHostFragment"
